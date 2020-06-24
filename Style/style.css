@@ -96,6 +96,52 @@ body {
 }
 
 
+/* article page */
+
+.meta {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #444;
+    color: #fff;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+.card .article-h1 {
+    font-weight: 900;
+    padding: 10px 0;
+    text-transform: uppercase;
+}
+
+.meta .entertainment {
+    margin-top: 10px;
+}
+
+.cat-aside ul {
+    list-style: none;
+    padding: 10px;
+}
+
+.cat-aside li {
+    border-bottom: 1px dotted #333;
+    padding: 5px 0;
+}
+
+.cat-aside li a {
+    font-weight: 700;
+}
+
+.cat-aside li a:hover {
+    color: darkred;
+}
+
+.cat-aside h2 {
+    font-weight: 900;
+    text-transform: capitalize;
+}
+
+
 /***************
  Navbar
   ***************/
