@@ -54,9 +54,16 @@ body {
     padding: 1rem;
 }
 
+.club {
+    display: block;
+    text-align: center;
+    width: 100%;
+}
+
 .dark {
     color: white;
     background: #333;
+    padding: 10px;
 }
 
 .dark a {
@@ -70,6 +77,22 @@ body {
 
 .red a {
     color: white;
+}
+
+
+/***************
+ about page
+  ***************/
+
+.page-container {
+    display: grid;
+    grid-template-columns: 5fr 2fr;
+    grid-gap: 1rem;
+    margin: 2rem 0;
+}
+
+.page-container>*:first-child {
+    grid-row: 1 / span 3;
 }
 
 
@@ -234,6 +257,7 @@ End ShowCase
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-gap: 1rem;
+    padding: 20px;
 }
 
 #home-articles .article-container>*:first-child,
@@ -250,6 +274,87 @@ End ShowCase
 }
 
 #home-articles h2 {
-    padding: 20px;
+    padding: 0 20px;
+    margin-top: 10px;
     font-weight: 900;
+}
+
+
+/***************
+footer
+ ***************/
+
+#main-footer {
+    background: #333;
+    color: #fff;
+    padding: 20px 0;
+}
+
+#main-footer img {
+    width: 150px;
+}
+
+#main-footer a {
+    color: #fff;
+}
+
+#main-footer .footer-container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 1.5rem;
+}
+
+#main-footer .footer-container p {
+    padding: 10px;
+}
+
+#main-footer .footer-container>*:last-child {
+    background: #444;
+    grid-column: 1/span 4;
+    text-align: center;
+    font-size: 0.75rem;
+}
+
+#main-footer .footer-container input[type='email'] {
+    width: 90%;
+    padding: 0.5rem;
+    margin-bottom: 0.5rem;
+}
+
+#main-footer .footer-container input[type='submit'] {
+    width: 90%;
+    height: 40px;
+    background: rgb(204, 15, 15);
+    border: none;
+    color: #fff;
+    font-size: 0.90rem;
+    cursor: pointer;
+}
+
+#main-footer .footer-container input[type='submit']:focus {
+    outline: none;
+}
+
+#main-footer .footer-container ul {
+    list-style: none;
+}
+
+#main-footer .footer-container li {
+    width: 100%;
+    border-bottom: 1px dotted #444;
+    padding: 5px;
+}
+
+#main-footer .footer-container li a:hover {
+    color: darkred;
+}
+
+#main-footer .footer-container .join {
+    background: orange;
+    padding: 10px 20px;
+}
+
+#main-footer .footer-container .join:hover {
+    background: darkorange;
+    cursor: pointer;
 }
