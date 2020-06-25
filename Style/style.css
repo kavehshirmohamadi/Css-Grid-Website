@@ -114,6 +114,12 @@ body {
     text-transform: uppercase;
 }
 
+.email {
+    font-size: 1rem;
+    font-weight: 900;
+    color: darkred;
+}
+
 .meta .entertainment {
     margin-top: 10px;
 }
@@ -271,7 +277,7 @@ ShowCase
     grid-template-columns: repeat(2, 1fr);
     justify-content: center;
     align-items: center;
-    height: 50vh;
+    height: 85vh;
 }
 
 .showcase .showcase-content {
